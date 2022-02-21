@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/LogIn.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name= "viewport" content= "width=device-width , initial-scale=1,shrink-to-fit=no">
+    <link rel= "stylesheet" href= "./css/bootstrap.min.css">
+    <link rel= "stylesheet" href= "./css/font-awesome.min.css">
+    <script src= "./js/libs/jquery-3.4.1.min.js "></script>
+    <script src= "./js/libs/popper.min.js"></script>
+    <script src= "./js/libs/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/register.js" type="module"></script>
+    <script src="js/libs/axios.min.js"> </script>
+</head>
+<body class="cuerpo" background="./images/stock-photo-123068181.jpg">
+
+    <div class="centre align square">
+        <h1 class="titulo_login">
+            Registrate
+        </h1>
+        <br>
+       
+        <form id="register-form">
+            
+            <input type="text" placeholder="nombre" name="name" required>
+            <br>
+            <input type="text" placeholder="apellidos" name="surname" required>
+            <br>
+            <input type="text" placeholder="correo" name="email" required >
+            <br>
+            <input type="text" placeholder="usuario" name="username" required>
+            <br>
+            <input type="password" placeholder="contraseña" name="password" required>
+            <br>
+            <input type="password" placeholder="repita contraseña" name="reppassword" required>
+            <br>
+            <input type="text" placeholder="telefono" name="telephone" pattern="[0-9]{9}" required>
+            <br>
+            <input type="text" placeholder="avatar(opcional)" name="avatarUrl" value="./images/default_profile.png" required >
+            <br>
+
+             <input type="submit" value="Registrarse">
+
+
+        </form>
+        <div id="errors"></div>
+
+        
+
+    </div>
+    
+</body>
+<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    
+    <a class="text-dark" href="enlace"> © 2021 Copyright: Repositorio IISSI2 Fernando Claros Barrero</a>  </div>
+  
+</footer>
+</html>
